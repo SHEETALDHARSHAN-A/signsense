@@ -1,3 +1,7 @@
+opencv---->For image processing
+numpy--->to change a values and labels to array
+pickle----> to save a data and model
+
 Mediapipe Handlandmarks (for Static Pose):
 For Static poses like alphabets and numbers we use mediapipe handlandmarks to detect a 21 hand-knuckle coordinates For each Hand
 https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker
@@ -10,7 +14,6 @@ we Use Random Forest Classifier to train a model with Numpy array
 
 LSTM:
 we use Long Short Term Memory to Train a model for sequential signs
-
 
 API Conversion :
 We are Going to use a FAST API to convert a dl model to Api
