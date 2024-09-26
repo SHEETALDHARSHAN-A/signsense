@@ -1,0 +1,22 @@
+Abstract:
+Our project would be a mobile application, accessible to everyone-the goal being to teach sign language specifically for deaf and mute people. 
+The app will be interactive, providing courses on fundamental elements: alphabets, numbers, and much more. So, each course will have video tutorials with descriptions and voiceovers, so the course will be accessible to a wide group of users.
+A quiz section augments the process of learning. Two types of assessment check user understanding. In the first, sign pictures with a question to which an appropriate answer must be selected are provided; in the second, 
+a type of input question asks the user to perform a sign, our deep learning model recognizes in real-time with gesture prediction.
+
+For development, we are using Flutterflow for designing the app's interface.
+The sign-prediction backend model uses MediaPipe for hand and body tracking and RandomForestClassifier within the model for static signs.
+MediaPipe Holistic is combined with an LSTM deep learning network for dynamic sign sequences.
+Model inference is transported over FastAPI for smooth two-way communication with the app. 
+This project will enable the user to not only learn sign language but also test their skills interactively and efficiently.
+
+
+
+
+
+
+
+
+
+
+
